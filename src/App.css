@@ -1,7 +1,12 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  /* margin: 0px 39% */
 }
 
+
+.header {
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -59,8 +64,12 @@
   /* grid-template-columns: 30px 30px 30px 30px 30px;
     grid-template-rows: 30px 30px 30px 30px 30px; */
     padding: 20px;
+    position: absolute;
+    left:40%;
+    /* padding: 20px 30%; */
     /* background: red; */
-    width: 270px;
+    /* width: 270px; */
+     /* margin: 0 30%; */
 }
 
 .grid-items {
@@ -68,3 +77,107 @@
     border-radius: 50%;
 }
 
+input {
+  display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+button {
+  margin-top: 10px;
+}
+
+.addbutton {
+  display: block;
+    width: 100px;
+    padding: 10px;
+}
+
+.formelements{
+  
+  display: flex;
+    justify-content: space-evenly;
+}
+
+.views {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+.colorchange{
+  display: flex;}
+
+
+@media only screen and (max-width: 600px) {
+  .formelements{
+  
+    display: block;
+      /* justify-content: space-evenly; */
+  }
+
+  #gridc {
+    background-color: green;
+    display: grid;
+    /* grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto; */
+    grid-gap: 20px;
+    /* margin: 0 30%; */
+    grid-template-columns: repeat(5, 30px);
+      grid-template-rows: repeat(5, 30px);
+    /* grid-template-columns: 30px 30px 30px 30px 30px;
+      grid-template-rows: 30px 30px 30px 30px 30px; */
+      padding: 20px;
+      position: absolute;
+    left: 12%;
+      /* padding: 20px 30%; */
+      /* background: red; */
+      /* width: 270px; */
+       /* margin: 0 30%; */
+  }
+  
+
+  input {
+    border:1px solid darkgray;
+    display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+      /* margin-right: 3px; */
+  }
+
+  .boxsize {
+    display: flex;
+  }
+  
+  .addbutton{
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    /* width: 100%; */
+    width: -webkit-fill-available
+  }
+
+  .colorchange{
+    display: flex;
+    justify-content: space-evenly;
+    widows: 100%;
+    margin:10px 0
+    /* justify-content: space-between; */
+  }
+
+  .boxcolorform{
+    /* margin:10px */
+  }
+
+  .boxcolor{
+    margin: 0px;
+    padding:10px;
+  }
+  .radiusclass {
+    display: flex;
+  }
+}

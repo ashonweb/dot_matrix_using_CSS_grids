@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h2 className="header">Dot Matrix Framework</h2>
      <DotComponent />
     </div>
   );
